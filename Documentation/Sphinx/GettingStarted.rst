@@ -269,7 +269,7 @@ The following approach allows us to use a locally installed version of ITK and/o
     - Compile elastix. Make sure to configure the build settings exactly the same as ITK e.g. Release x64.
 5. Build SimpleElastix. 
     - Clone SimpleElastix from `github.com/SuperElastix/SimpleElastix <https://github.com/SuperElastix/SimpleElastix>`_.
-    - Configure CMake. Point :code:`ITK_DIR` to the location of the ITK build directory and :code:`ELASTIX_DIR` to the location of the elastix build directory, specifically the src/ directory in it.
+    - Configure CMake. Point :code:`ITK_DIR` to the location of the ITK build directory and :code:`Elastix_DIR` to the location of the elastix build directory, specifically the src/ directory in it.
     - Build SimpleElastix. Make sure to configure the build settings exactly the same as ITK and Elastix, e.g. Release x64.
 
 Troubleshooting
