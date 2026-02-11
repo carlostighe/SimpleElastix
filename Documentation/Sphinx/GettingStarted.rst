@@ -263,7 +263,7 @@ The following approach allows us to use a locally installed version of ITK and/o
 4. Build elastix. 
     - Clone elastix from `github.com/SuperElastix/elastix <https://github.com/SuperElastix/elastix>`_.
     - Set ITK_DIR to the location of the ITK build directory
-    - Configure CMake. Set the CMake variable :code:`BUILD_EXECUTABLE` to :code:`OFF`. 
+    - Configure CMake. Set the CMake variable :code:`ELASTIX_BUILD_EXECUTABLE` to :code:`OFF`. 
     - Set appropriate ELASTIX_IMAGE_2/3/4D_PIXELTYPES and any components that you might require.
     - If you are developing your own elastix components, make sure they are properly registered by the elastix build system.
     - Compile elastix. Make sure to configure the build settings exactly the same as ITK e.g. Release x64.
